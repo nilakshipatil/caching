@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+<diskStore path="c:/tmpone" />
+ <defaultCache
+	maxEntriesLocalHeap="10000"
+	eternal="true"
+	timeToIdleSeconds="300"
+	timeToLiveSeconds="600"
+	overflowToDisk="true"
+	diskPersistent="true" ></defaultCache>
+
+</ehcache>
